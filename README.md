@@ -10,10 +10,11 @@ Move to Magento Root directory with CLI and use below commands
 • php bin/magento cache:flush
 • php bin/magento setup:static-content:deploy
 ### HowtoUse:
-GotoStore->Configuration->Webiators->GeoIP Enable
-GeoIp Lock if you want to avoid visitors from selected countries.
+GotoStore->Configuration->Webiators->GeoIP 
+Enable GeoIp Lock if you want to avoid visitors from selected countries.
 Enable Geo IP Redirection If you want to redirect Visitors to specific country’ Store
-NOTE FOR REDIRECTION: if you want the redirection to work you have to Make you
+### NOTE FOR REDIRECTION: 
+If you want the redirection to work you have to Make you
 Store View Code as Country code.
-Example: For United State of America Store code will be US
- For India Store code will be IN
+### Example: 
+For United State of America Store code will be US For India Store code will be IN
