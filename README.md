@@ -4,7 +4,8 @@
 Download the "Ready to paste" package from your customer's area, unzip it
 and upload the all files in 'app/code/Webiators/GeoIpRedirection' folder to your Magento install
 dir.
-Update the Database: Move to Magento Root directory with CLI and use below commands
+### Update the Database: 
+Move to Magento Root directory with CLI and use below commands
 • php bin/magento setup:upgrade
 • php bin/magento cache:flush
 • php bin/magento setup:static-content:deploy
