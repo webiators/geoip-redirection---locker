@@ -1,4 +1,5 @@
 # GeoIP Redirection & Locker
+
 ###Howto Install: 
 Download the "Ready to paste" package from your customer's area, unzip it
 and upload the all files in 'app/code/Webiators/GeoIpRedirection' folder to your Magento install
