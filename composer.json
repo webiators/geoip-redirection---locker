@@ -1,29 +1,21 @@
 {
-  "name": "webiators/module-geoipredirection",
-  "description": "Webiators GeoIpRedirection and GeoIpLocker extension make it possible to identify your vistors's location and allow/deny them access to the store.",
-  "require": {},
-  "require-dev": {
-    "roave/security-advisories": "dev-master"
-  },
-  "type": "magento2-module",
-  "version": "1.0.1",
-  "license": "proprietary",
-  "minimum-stability": "stable",
-  "authors": [
-    {
-      "name": "Webiators",
-      "email": "yogesh@webiators.com"
-    }
-  ],
-  "keywords": [
-    "magento 2"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "webiators/module-geoipredirection",
+    "description": "Webiators GeoIpRedirection and GeoIpLocker extension make it possible to identify your vistors's location and allow/deny them access to the store.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Webiators",
+            "email": "yogesh@webiators.com"
+        }
     ],
-    "psr-4": {
-      "Webiators\\GeoIpRedirection\\": ""
-    }
-  }
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webiators\\GeoIpRedirection\\": ""
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev"
 }
